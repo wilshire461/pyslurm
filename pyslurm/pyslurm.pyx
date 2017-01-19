@@ -52,7 +52,7 @@ except ImportError:
 # from cpython cimport PyUnicode_Check, PyBytes_FromStringAndSize
 
 cimport slurm
-include "bluegene.pxi"
+#include "bluegene.pxi"
 include "slurm_defines.pxi"
 
 #
